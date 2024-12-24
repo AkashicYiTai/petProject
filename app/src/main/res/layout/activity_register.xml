@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@mipmap/bg1"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户注册"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/defColor"
+        android:layout_marginBottom="250dp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入账号"
+        android:background="@drawable/shape_bg_login"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入密码"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_bg_login"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        />
+
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_bg_login_def"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

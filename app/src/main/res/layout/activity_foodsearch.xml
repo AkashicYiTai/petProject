@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="#efefef"
+    >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/defColor"
+    >
+        <ImageView
+                android:id="@+id/finish"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/icon_back"
+                android:padding="10dp"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="饮食方案搜索"
+                android:gravity="center"
+                android:textColor="@color/white"
+        />
+        <TextView
+            android:id="@+id/add"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text=""
+        />
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f69c9f"
+    >
+        <EditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="请输入方案名称"
+                android:textColorHint="#999999"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/shatp_bg_w"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+
+        />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+                                               android:layout_height="match_parent"/>
+
+
+</LinearLayout>

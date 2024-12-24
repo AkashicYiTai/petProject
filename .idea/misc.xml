@@ -1,0 +1,36 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/drawable/shape_bg_login.xml" value="0.378125" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_addchat.xml" value="0.34010416666666665" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_addfood.xml" value="0.33" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_chat.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_edituser.xml" value="0.3619791666666667" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_food.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_foodsearch.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_foodsolution.xml" value="0.11096014492753623" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_mine.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_petshop.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_petshopsearch.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_register.xml" value="0.36614583333333334" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/activity_repsw.xml" value="0.3619791666666667" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/include_commend.xml" value="0.3651041666666667" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/item_chat.xml" value="0.34010416666666665" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/item_pet.xml" value="0.20923913043478262" />
+        <entry key="..\:/student/university-fourproject/petProject/app/src/main/res/layout/item_petshop.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
